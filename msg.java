@@ -8,4 +8,7 @@ class HelloWorld {
     {
         System.out.println("Hello, World");
     }
+    public static void main(String[] args) {
+        displayMessage(); // Call the function
+    }
 }
